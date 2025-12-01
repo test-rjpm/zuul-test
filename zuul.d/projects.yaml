@@ -1,0 +1,14 @@
+- project:
+    check:
+      jobs:
+        - noop
+    gate:
+      jobs:
+        - testjob
+    post:
+      jobs:
+        - noop
+    test:
+      jobs:
+        - testjob
+        
