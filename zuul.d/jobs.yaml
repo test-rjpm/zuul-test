@@ -1,0 +1,3 @@
+- job:
+    name: testjob
+    run: playbooks/testjob.yaml

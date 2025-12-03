@@ -2,4 +2,4 @@
   tasks:
     - name: test job task
       debug:
-        msg: Hello world!
+        msg: "Hello world!"
