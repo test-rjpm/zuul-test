@@ -4,7 +4,7 @@
         - testjob
     gate:
       jobs:
-        - noop
+        - testjob
     post:
       jobs:
         - testjob
