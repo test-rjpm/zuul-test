@@ -1,4 +1,8 @@
+- job:
+    name: testjob
+    run: /bin/true
+
 - project:
     check:
       jobs:
-        - noop
+        - testjob
